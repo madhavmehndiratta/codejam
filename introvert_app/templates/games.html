@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+
+{% block css %}<link rel="stylesheet" href="/static/css/games.css"/><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">{% endblock css %}
+{% block title %}Games{% endblock title %}
+
+{% block body %}
+
+
+<img src="/static/assets/img/games.gif" style="width: 20%; margin: auto; display: block; position: relative; top: 35px; margin-bottom: 5px;"><br>
+<h1>Game Centre</h1><br>
+<div class="gameflex">
+<a href="https://skribbl.io/" target="_blank"><img class="img" src="/static/assets/img/scribble.png" alt="skribbl"></a>
+<a href="https://krunker.io/" target="_blank"><img class="img" src="/static/assets/img/krunker.jpg" alt="krunker"></a>
+  <a href="https://garticphone.com/" target="_blank"><img class="img" src="/static/assets/img/gaticphone.png" alt="garticphone"></a>
+  <a href="https://codenames.game/" target="_blank"><img class="img" src="/static/assets/img/codenames.jpg" alt="codenames"></a>
+  <a href="https://www.geoguessr.com/" target="_blank"><img class="img" src="/static/assets/img/geoguessr.jpg" alt="geoguessr"></a>
+  <a href="https://smashkarts.io/" target="_blank"><img class="img" src="/static/assets/img/Smash-Karts.png" alt="smash kart"></a>
+  </div>
+  <div>
+    
+    <h4 class="subhead">These are some of the games that you can anonymously play with strangers and have fun!</h4>
+    <ol style="list-style-type: none;">
+        <li><a href="https://skribbl.io/" target="_blank">Skribbl.io</a></li>
+        <li><a href="https://krunker.io/" target="_blank">Krunker.io</a></li>    
+        <li><a href="https://garticphone.com/" target="_blank">Gartic Phone</a></li>
+        <li><a href="https://codenames.game/" target="_blank">Codenames</a></li>
+        <li><a href="https://www.geoguessr.com/" target="_blank">GeoGuessr</a></li>
+        <li><a href="https://smashkarts.io/" target="_blank">Smash kart</a></li>
+    </ol>
+</div>
+{% endblock body %}

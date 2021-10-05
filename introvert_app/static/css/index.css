@@ -1,0 +1,90 @@
+.box1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  font-size: 80px;
+  font-family: 'Bellota Text', cursive;
+  text-align: center;
+  font-weight: bolder;
+  color: rgba(235, 237, 238, 0.945);
+  max-width: 580px;
+}
+.box1 a {
+  text-decoration: none;
+  font-size: x-large;
+  border: 2px solid white;
+  display: block;
+  width: 35%;
+  margin: auto;
+  border-radius: 45px;
+  transition-property: all;
+  font-family: 'Bellota Text', cursive;
+  color: rgba(235, 237, 238, 0.945);
+}
+.box1 a:hover {
+
+  transition-duration: 0.5s;
+  font-family: 'Bellota Text', cursive;
+  transform: scale(1.1);
+}
+
+.div {
+  margin: 10px;
+  border: 2px black solid;
+}
+
+.about {
+  height: 500px;
+  background: rgb(2, 0, 36);
+  background-image: linear-gradient(to right bottom, rgb(230, 115, 62), rgba(255,0,0,.5));;
+  overflow: hidden;
+  padding-top: 7px;
+  font-family: 'Bellota Text', cursive;
+  color: rgb(210, 217, 250);
+  font-family: calibri;
+  font-size: 22px;
+  text-align: justify;
+}
+.about h1, footer h1 {
+  text-align: center;
+  background-color: bisque;
+  width: 200px;
+  margin: auto;
+  border-radius: 6px;
+  font-family: 'Bellota Text', cursive;
+  color: black;
+  font-weight: bold;
+  text-align: justify;
+
+}
+
+footer{
+  
+  background-color: black;
+  
+  padding-top: 7px;
+  font-family: calibri;
+  font-size: 22px;
+  color: aliceblue;
+}
+.contact_info{
+  display: flex;
+  justify-content: center;
+}
+.logos{
+  text-decoration: none;
+  margin: 10px;
+  color:black;
+  font-family: calibri;
+  font-weight: 500;
+  background-color:white;
+  border-radius: 20px;
+  padding: 5px;
+}
+.logos:hover{
+  transform: scale(1.1);
+  transition-duration: .3s;
+ 
+}

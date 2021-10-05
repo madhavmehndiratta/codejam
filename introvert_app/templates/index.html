@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+
+{% block css %}<link rel="stylesheet" href="/static/css/index.css"/>{% endblock css %}
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+
+  <div style="height: 100vh; background-image: url(static/assets/img/mountains2.jpg)">
+
+      <div class="box1">
+        HEY, INTROVERTS
+        <p style="font-size: 20px; font-weight: lighter; text-align: justify;">
+          There is a tremendous difference between alone and lonely. You could be lonely in a group of people. I like being alone. I like eating by myself. I go home at night and just watch a movie or hang out with my dog ~ via an Introvert
+        </p>
+        <a href="/signup" style="padding: 10px; margin-top: 40px;">SIGN UP</a>
+        <p>{{signupMessage}}</p>
+      </div>
+    </div>
+    <div
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-offset="0"
+      class="scrollspy-example"
+      tabindex="0">
+      <div id="about-us"></div>
+      <div class="about container-fluid">
+     <br><h1>About Us</h1>
+        <br />
+        <p style="width: 50%; margin: auto; text-align: center">
+          We're a team of 5 members (all introverts), thus the website. Here, you can interact with other introverts like yourself, read their blogs, talk to them, play with them & simultaneously listen to some music too! Sounds fun right?
+        </p>
+      </div>
+      <footer id="contact-us">
+        <h1>Contact Us</h1>
+        <br>
+        <br>
+        <p style="width: 50%; margin: auto; text-align: center">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
+          neque mollitia voluptas vitae perferendis laudantium quod modi
+          deleniti ullam et, aspernatur iure reiciendis aut. Ratione illum
+          maiores aspernatur, velit, obcaecati possimus esse temporibus deleniti
+          pariatur dolor provident vel ab itaque ducimus. Fugiat nemo aliquid
+          tenetur, consequatur sunt quisquam natus corrupti!
+        </p>
+        <br>
+        <br>
+        <br>
+        <div class="contact_info">
+          <a class="logos" href="https://github.com/new"
+          target="_blank">
+            <i class="fab fa-github fa-1x" style="color: #4078c0"></i
+            >&nbsp;Github</a>
+
+        
+          <a class="logos" href="https://www.facebook.com/" target="_blank"
+            ><i class="fab fa-facebook fa-1x" style="color: #4267B2;"></i>&nbsp;Facebook</a>
+
+        
+          <a class="logos" href="https://twitter.com/?lang=en"target="_blank"
+            ><i class="fab fa-twitter-square fa-1x" style="color: #1da1f2"></i
+            >&nbsp;Twitter</a
+          >
+          
+          <a class="logos" href="https://www.instagram.com/"target="_blank"
+            ><i class="fab fa-instagram fa-1x" style="color: #dd2a7b"></i
+            >&nbsp;Instagram</a>
+
+        
+          <a class="logos" href="https://www.youtube.com/"target="_blank"
+            ><i class="fab fa-youtube fa-1x" style="color:#ff0000";></i
+            >&nbsp;Youtube</a
+          >
+        </div>
+      </footer>
+    </div>
+    <div class="copyright" style="background-color: rgb(160, 30, 30); color: cornsilk; text-align: center; font-family: calibri; font-size: 30px; font-weight: bolder; padding: 10px;" >
+      Copyright &copy Pragmatic Pinatas 2021
+    </div>
+
+
+    <!-- Login Modal -->
+    <div
+      class="modal fade"
+      id="loginModal"
+      tabindex="-1"
+      aria-labelledby="loginLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginLabel">Log in to your account</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close">
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="loginEmail"
+                  aria-describedby="emailHelp"/>
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="loginPass" class="form-label">Password</label>
+                <input type="password" class="form-control" id="loginPass" />
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="Check1" />
+                <label class="form-check-label" for="Check1">Keep me signed in</label>
+              </div>
+              <button type="submit" class="btn btn-primary loginbutton">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock body %}

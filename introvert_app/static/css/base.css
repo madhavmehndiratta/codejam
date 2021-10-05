@@ -1,0 +1,31 @@
+.navbar {
+    background-color: rgba(22, 21, 22, 0.918);
+    font-family: 'Roboto', sans-serif;
+}
+  
+.scroll {
+    display: block;
+    margin-right: 20px;
+    text-decoration: none;
+    width: 90px;
+    color: aquamarine;
+    padding: 3px;
+    border-radius: 5px;
+}
+.scroll:hover {
+    background-color: blanchedalmond;
+    transition-duration: 0.3s;
+    transform: scale(1.1);
+}
+
+div#invisible {
+    display:none;
+  }
+#preloader{
+    background: #515781 url(https://miro.medium.com/max/978/0*DSPgbPGswUlTY_Ex.gif) no-repeat center center;
+    background-size: 40%;
+    height: 100vh;
+    width:100vw;
+    position:fixed;
+    z-index:100 ;
+}
