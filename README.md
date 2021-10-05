@@ -16,6 +16,13 @@ We're a team of 5 members (all introverts), thus the website.
 - They get chance to know the perspective of other introverts in different parts of the world
 - It maintains their privacy and they can simultaneously have fun
 
+### Webiste URL
+You can visit the website using the following address:
+
+```
+http://139.59.75.144/
+```
+
 ### How to run this webiste locally?
 For runnning this website, you need to install [docker](https://docs.docker.com/engine/install/) in your system. After installing docker you can pull the image using the following commands:
 ```
