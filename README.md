@@ -1,6 +1,12 @@
-# We’re Introverts!
+<div align="center">
+  <h1> <a href= "http://139.59.75.144/" target="_blank">We’re Introverts!</a> </h1>
+</div>
 
-![logo](images/logo.png)
+<br>
+<p align="center">
+<img src="images/logo.png" height=50% width=50%>
+</p>
+<br> 
 
 ### We usually hear 
 - Introverts don’t like to talk
@@ -35,43 +41,69 @@ Then you can visit the website by navigate to `http://127.0.0.1` to view the web
 - Visit We’re Introvert website and click on ‘Sign Up’ button on home page. It will take you to the sign-up form.
 
 
-![1](images/introvert/main%20page.png)
+<br>
+<p align="center">
+<img src="images/introvert/main%20page.png" height=50% width=50%>
+</p>
+<br>
 
-
-
-![1](images/introvert/sign_up.png)
+<br>
+<p align="center">
+<img src="images/introvert/sign_up.png" height=50% width=50%>
+</p>
+<br>
 
 
 - If you are already a member. Click on login here in sign-up form or login button on navbar. It will take you to login form.
 
 
-![1](images/introvert/login_page.png)
+<br>
+<p align="center">
+<img src="images/introvert/login_page.png" height=50% width=50%>
+</p>
+<br>
 
 
 - After successfully logging in you will be redirected to homepage from there you will able to access any link on navbar (games,blog,music). 
 - Here if you try to signup again. It will show you message that you already logged in.
 
 
-![1](images/introvert/already_signin.png)
+<br>
+<p align="center">
+<img src="images/introvert/already_signin.png" height=50% width=50%>
+</p>
+<br>
 
 
 - On clicking games, User can play any game globally.
 
 
-![1](images/introvert/games.png)
+<br>
+<p align="center">
+<img src="images/introvert/games.png" height=50% width=50%>
+</p>
+<br>
 
 
-- On clicking blogs, user can read/ write anonymous blog and here we can include chat box system through database which we can include in future.
+- On clicking blog, user can read some blogs related to Technology, Space, Food and Sports.
 
 
-![1](images/introvert/blog.png)
+<br>
+<p align="center">
+<img src="images/introvert/blog.png" height=50% width=50%>
+</p>
+<br>
 
 
 
 - Music is most imp part of any schedule. While travelling or doing daily task we hear songs. Here in website, we integrated music player. From were a user can listen beautiful songs.
 
 
-![1](images/introvert/music.png)
+<br>
+<p align="center">
+<img src="images/introvert/music.png" height=50% width=50%>
+</p>
+<br>
 
 
 - To sign out from website. Click on logout button on navbar. And you will be successfully logout and will be redirected to homepage
@@ -95,13 +127,20 @@ Django
 Docker
 ```
 
-#### Known Issues
+### Known Issues
 - Website is not fully responsive
 - The seek bar in music app contain bugs
 
-#### Features to Add
-- Support for mobile webiste
-- Add support to post your own blogs anonymously
-- Add chatbox where a user can chat with other users on the website
-- Add support to upload your own songs in music app
-- Add a "rooms" feature where users can listen to a same song together
+### Features to Add
+- Support for mobile website.
+- Add support to post your own blogs anonymously.
+- Add chatbox where a user can chat with other users on the website anonymously.
+- Add support to upload your own songs in music app.
+- Add a "rooms" feature where users can listen to a same song together.
+
+### Team Prigmatic Pinatas
+- [Arnav](https://github.com/arnavaggarwal2012)
+- [Madhav](https://github.com/madhavmehndiratta)
+- [Deepak](https://github.com/DeathRay99)
+- [Mihir](https://github.com/mihir224)
+- Avikal
