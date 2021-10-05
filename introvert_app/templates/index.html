@@ -1,7 +1,9 @@
 {% extends 'base.html' %}
 
 
-{% block css %}<link rel="stylesheet" href="/static/css/index.css"/>{% endblock css %}
+{% block css %}<link rel="stylesheet" href="/static/css/index.css"/><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">{% endblock css %}
 {% block title %}Home{% endblock title %}
 
 {% block body %}
@@ -10,7 +12,7 @@
 
       <div class="box1">
         HEY, INTROVERTS
-        <p style="font-size: 20px; font-weight: lighter; text-align: justify;">
+        <p style="font-size: 20px; font-weight: lighter; text-align: center; font-family: 'Playfair Display', serif;">
           There is a tremendous difference between alone and lonely. You could be lonely in a group of people. I like being alone. I like eating by myself. I go home at night and just watch a movie or hang out with my dog ~ via an Introvert
         </p>
         <a href="/signup" style="padding: 10px; margin-top: 40px;">SIGN UP</a>
@@ -27,7 +29,8 @@
       <div class="about container-fluid">
      <br><h1>About Us</h1>
         <br />
-        <p style="width: 50%; margin: auto; text-align: center">
+        <p style="width: 50%; margin: auto; text-align: center; font-family: 'Playfair Display', serif; color: white;">
+          <br>
           We're a team of 5 members (all introverts), thus the website. Here, you can interact with other introverts like yourself, read their blogs, talk to them, play with them & simultaneously listen to some music too! Sounds fun right?
         </p>
       </div>
@@ -35,13 +38,9 @@
         <h1>Contact Us</h1>
         <br>
         <br>
-        <p style="width: 50%; margin: auto; text-align: center">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum
-          neque mollitia voluptas vitae perferendis laudantium quod modi
-          deleniti ullam et, aspernatur iure reiciendis aut. Ratione illum
-          maiores aspernatur, velit, obcaecati possimus esse temporibus deleniti
-          pariatur dolor provident vel ab itaque ducimus. Fugiat nemo aliquid
-          tenetur, consequatur sunt quisquam natus corrupti!
+        <p style="width: 50%; margin: auto; text-align: center;font-family: 'Playfair Display', serif;">
+          We love to hear from our adoring fans, but feel free to fling
+          tomatoes in our direction if you must. We have some vegetarians on staff that we feed those to (if they're not too badly damaged).
         </p>
         <br>
         <br>
@@ -76,52 +75,5 @@
     </div>
     <div class="copyright" style="background-color: rgb(160, 30, 30); color: cornsilk; text-align: center; font-family: calibri; font-size: 30px; font-weight: bolder; padding: 10px;" >
       Copyright &copy Pragmatic Pinatas 2021
-    </div>
-
-
-    <!-- Login Modal -->
-    <div
-      class="modal fade"
-      id="loginModal"
-      tabindex="-1"
-      aria-labelledby="loginLabel"
-      aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="loginLabel">Log in to your account</h5>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close">
-            </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="loginEmail"
-                  aria-describedby="emailHelp"/>
-                <div id="emailHelp" class="form-text">
-                  We'll never share your email with anyone else.
-                </div>
-              </div>
-              <div class="mb-3">
-                <label for="loginPass" class="form-label">Password</label>
-                <input type="password" class="form-control" id="loginPass" />
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="Check1" />
-                <label class="form-check-label" for="Check1">Keep me signed in</label>
-              </div>
-              <button type="submit" class="btn btn-primary loginbutton">Login</button>
-            </form>
-          </div>
-        </div>
-      </div>
     </div>
 {% endblock body %}
